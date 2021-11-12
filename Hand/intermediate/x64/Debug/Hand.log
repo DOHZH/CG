@@ -1,0 +1,37 @@
+﻿  main.cpp
+D:\junior_2\CG\Hand\include\FreeImage.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\junior_2\CG\Hand\src\skeletal_mesh.h(354): error C2102: “&”要求左值
+D:\junior_2\CG\Hand\src\skeletal_mesh.h(360,22): warning C4018: “<”: 有符号/无符号不匹配
+D:\junior_2\CG\Hand\src\main.cpp(95,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(118,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(124,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(130,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(136,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(142,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(148,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(154,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(160,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(166,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(172,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(178,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(186,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(193,24): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(211,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(212,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(222,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(223,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(240,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(241,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(259,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(260,17): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(261,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(262,11): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(287,17): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(388,50): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(399,51): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(403,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(450,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(492,31): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(553,22): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(633,29): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\Hand\src\main.cpp(902,128): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
