@@ -1,0 +1,86 @@
+﻿  ssao.cpp
+D:\junior_2\CG\ssao\includes\common\shader.h(57,40): warning C4101: “e”: 未引用的局部变量
+D:\junior_2\CG\ssao\src\ssao.cpp(171,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(220,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(300,37): warning C4305: “初始化”: 从“double”到“float”截断
+D:\junior_2\CG\ssao\src\ssao.cpp(301,38): warning C4305: “初始化”: 从“double”到“float”截断
+D:\junior_2\CG\ssao\src\ssao.cpp(464,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(465,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(469,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(470,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(472,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(473,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\ssao\src\ssao.cpp(482,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+ssao.obj : error LNK2019: 无法解析的外部符号 _gladLoadGLLoader，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwSetInputMode，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPosCallback，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwSetScrollCallback，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwGetTime，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，函数 _main 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QAE@XZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QAE@XZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@PBDI@Z)，函数 "public: struct aiScene const * __thiscall Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QAEPBUaiScene@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 "public: char const * __thiscall Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QBEPBDXZ)，函数 "private: void __thiscall Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?loadModel@Model@@AAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _aiGetMaterialTextureCount，函数 "public: unsigned int __thiscall aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QBEIW4aiTextureType@@@Z) 中引用了该符号
+ssao.obj : error LNK2019: 无法解析的外部符号 _aiGetMaterialTexture，函数 "public: enum aiReturn __thiscall aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QBE?AW4aiReturn@@W4aiTextureType@@IPAUaiString@@PAW4aiTextureMapping@@PAIPAMPAW4aiTextureOp@@PAW4aiTextureMapMode@@@Z) 中引用了该符号
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glTexParameteri
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glTexImage2D
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glClear
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glClearColor
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glEnable
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glViewport
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glDrawArrays
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glDrawElements
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glBindTexture
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGenTextures
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glActiveTexture
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glBindBuffer
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGenBuffers
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glBufferData
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glDrawBuffers
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glAttachShader
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glCompileShader
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glCreateProgram
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glCreateShader
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glDeleteShader
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glEnableVertexAttribArray
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGetProgramiv
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGetProgramInfoLog
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGetShaderiv
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGetShaderInfoLog
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGetUniformLocation
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glLinkProgram
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glShaderSource
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glUseProgram
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glUniform1f
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glUniform1i
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glUniform3fv
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glUniformMatrix4fv
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glVertexAttribPointer
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glBindRenderbuffer
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGenRenderbuffers
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glRenderbufferStorage
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glBindFramebuffer
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGenFramebuffers
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glCheckFramebufferStatus
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glFramebufferTexture2D
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glFramebufferRenderbuffer
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGenerateMipmap
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glBindVertexArray
+ssao.obj : error LNK2001: 无法解析的外部符号 _glad_glGenVertexArrays
+D:\junior_2\CG\ssao\lib\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\ssao\lib\assimp.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\ssao\lib\freetype.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\ssao\lib\irrKlang.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\ssao\Debug\ssao.exe : fatal error LNK1120: 68 个无法解析的外部命令
