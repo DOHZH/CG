@@ -1,0 +1,3 @@
+D:\junior_2\CG\hm3\x64\Debug\hm3.exe
+D:\junior_2\hm3\x64\Debug\hm3.exe
+D:\senior_1\出国安排\work\CG\hm3\x64\Debug\hm3.exe

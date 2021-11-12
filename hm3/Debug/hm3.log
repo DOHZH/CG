@@ -1,0 +1,31 @@
+﻿  normal_mapping.cpp
+D:\junior_2\CG\hm3\includes\learnopengl\shader.h(56,40): warning C4101: “e”: 未引用的局部变量
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(103,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(275,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(276,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(280,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(281,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(283,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(284,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\junior_2\CG\hm3\src\normal_mapping.cpp(293,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwInit，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwTerminate，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwWindowHint，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwCreateWindow，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwWindowShouldClose，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwSetWindowShouldClose，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwSetFramebufferSizeCallback，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwPollEvents，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwSetInputMode，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwGetKey，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z) 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwSetCursorPosCallback，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwSetScrollCallback，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwGetTime，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwMakeContextCurrent，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwSwapBuffers，函数 _main 中引用了该符号
+normal_mapping.obj : error LNK2019: 无法解析的外部符号 _glfwGetProcAddress，函数 _main 中引用了该符号
+D:\junior_2\CG\hm3\lib\glfw3.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\hm3\lib\assimp.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\hm3\lib\freetype.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\hm3\lib\irrKlang.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\junior_2\CG\hm3\Debug\hm3.exe : fatal error LNK1120: 16 个无法解析的外部命令
