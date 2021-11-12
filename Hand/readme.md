@@ -75,7 +75,7 @@ Reset position to initial position
 ## 7. Finger movement
 
 1. If you don't do anything, the finger will move by themselves
-2. key 1~9: gesture 1~9
+2. key 1\~9: gesture 1\~9
 3. key G: catch
 4. key L: gesture "Like"
 5. you can move camera and finger at the same time
